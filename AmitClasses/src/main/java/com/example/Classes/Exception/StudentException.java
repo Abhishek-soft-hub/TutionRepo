@@ -10,7 +10,7 @@ public class StudentException extends RuntimeException {
 	
 	@Override
 	public String getMessage() {
-		// TODO Auto-generated method stub
+		
 		return getMessage;
 	}
 	
@@ -22,6 +22,9 @@ public class StudentException extends RuntimeException {
 		
 		this.getMessage = getMessage;
 		this.getHttp = getHttp;
+	}
+	public viod save(){
+		System.out.println("hello");
 	}
 	
 	
