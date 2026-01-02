@@ -23,9 +23,6 @@ public class StudentException extends RuntimeException {
 		this.getMessage = getMessage;
 		this.getHttp = getHttp;
 	}
-	public viod save(){
-		System.out.println("hello");
-	}
 	
 	
 	
