@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.Classes.Entity.DTO;
 import com.example.Classes.Entity.EntityForStudent;
 import com.example.Classes.Service.StudentService;
 
@@ -22,7 +23,7 @@ public class StudentController {
 	StudentService service;
 
 	@PostMapping("save")
-	public String save(@RequestBody EntityForStudent s) {
+	public String save(@RequestBody DTO s) {
 
 		return service.saveStudent(s);
 

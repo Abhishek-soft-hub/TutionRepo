@@ -2,11 +2,12 @@ package com.example.Classes.Service;
 
 import java.util.List;
 
+import com.example.Classes.Entity.DTO;
 import com.example.Classes.Entity.EntityForStudent;
 
 public interface StudentService {
 
-	public String saveStudent(EntityForStudent s);
+	public String saveStudent(DTO s);
 
 	public String deleteStudent(int id);
 
